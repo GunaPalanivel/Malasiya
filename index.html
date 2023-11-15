@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Indian Culture</title>
+    <title>Malaysian Desi</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -16,9 +16,52 @@
     <link rel="icon" href="images/logo/malaysia.png" />
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,600i,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,500i,600,600i" rel="stylesheet">
+
+    <style>
+#cookies {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    z-index: 999;
+    display: none; /* Hide by default */
+}
+
+.cookies-content {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#cookies-accept,
+#cookies-decline {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#cookies-accept:hover,
+#cookies-decline:hover {
+    background-color: #0056b3;
+}
+    </style>
 </head>
 
 <body>
+
+    <div id="cookies">
+        <div class="cookies-content">
+            <p>We use cookies to improve your experience on our website. By continuing to browse, you agree to our use of cookies.</p>
+            <button id="cookies-accept">Accept</button>
+            <button id="cookies-decline">Decline</button>
+        </div>
+    </div>
 
     <div id="arrow">
         <i class="fa fa-arrow-up" aria-hidden="true"></i>
@@ -29,7 +72,7 @@
             <div class="menu-par">
                 <div class="logo-par">
                     <a href="index.html">
-                        <h2>INDIAN CULTURE</h2>
+                        <h2>MALAYSIAN DESI</h2>
                     </a>
                 </div>
                 <div class="nav">
@@ -48,7 +91,7 @@
     </nav>
 
     <header>
-        <div class="conatiner">
+        <div class="container">
             <div class="home_header_info">
                 <h1 class="typewrite" data-period="2000" data-type='[ "ALL About", "MALAYSIAN!", " INDIAN CULTURE." ]'></h1>
                 <p>Today the Indian community accounts for about 7% of Malaysia's population and is considered the third largest single ethnic group in Malaysia.</p>
@@ -61,17 +104,15 @@
         </div>
     </header>
 
-    <Section id="welcome_Sec">
+    <section id="welcome_Sec">
         <div class="container">
             <h2><span>Regions With Significant Population!
             </span></h2>
-            <p>Total population 1,980,000 6.6% of the Malaysian population (2023)
-                
-                </p>
+            <p>Total population 1,980,000 6.6% of the Malaysian population (2023)</p>
         </div>
-    </Section>
+    </section>
 
-    <Section id="slides_parent">
+    <section id="slides_parent">
         <div class="container">
             <div class="slides">
                 <div class="slide_1">
@@ -97,7 +138,6 @@
                 <div class="slide_1 slide_5">
                     <div class="slide_info">
                         <p>Kuala Lumpur</p>
-                        
                     </div>
                 </div>
                 <div class="slide_1 slide_6">
@@ -112,25 +152,24 @@
                 </div>
             </div>
         </div>
-    </Section>
-
-    <section id="explore-fiji">
-       <center><h1> Locate top heritage sites in Malaysia!</h1></center> 
-       <br><br>
-       <center><p><h4>Much of the unique Malaysian Indian culture stems from Hindus who brought their tradition, delicious cuisine, and ethnic clothes to Malaysia. Their traditions still remains strong in the Indian community of Malaysia even to this day!</h4></p></center>
-     <br><br><center><iframe src="https://www.google.com/maps/d/embed?mid=1IcIsvLyMhl7cIzYiYP1hJW6JvrPVOyc&ehbc=2E312F&noprof=1" width="640" height="480"></iframe></center>
     </section>
 
+    <section id="explore-fiji">
+        <center><h1> Locate top heritage sites in Malaysia!</h1></center>
+        <br><br>
+        <center><p><h4>Much of the unique Malaysian Indian culture stems from Hindus who brought their tradition, delicious cuisine, and ethnic clothes to Malaysia. Their traditions still remain strong in the Indian community of Malaysia even to this day!</h4></p></center>
+        <br><br><center><iframe src="https://www.google.com/maps/d/embed?mid=1IcIsvLyMhl7cIzYiYP1hJW6JvrPVOyc&ehbc=2E312F&noprof=1" width="640" height="480"></iframe></center>
+    </section>
 
     <section id="gallery">
         <div class="container">
             <div class="row">
                 <div align="center">
-                    
-                    <button class="btn filter-button" data-filter="hdpe">Indian Traditional</button>
-                    
-                    
+                    <center>
+                        <button class="btn filter-button" data-filter="hdpe">Indian Traditional</button>
+                    </center>
                 </div>
+    
 
                 <div class="filter-gal-par">
                     <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
@@ -185,11 +224,93 @@
         </div>
     </section>
 
+    <footer>
+        <div class="container">
+            <div class="footer-par">
+                <div class="footer-1">
+                    <h2>Travel with us</h2>
+                </div>
+                <div class="footer-2 fot-info">
+                    <h3>Dekho Apna Desh!</h3>
+                    <ul>
+                        <li><a href="https://indianculture.gov.in/">Indian Culture</a></li>
+                        <li><a href="https://www.incredibleindia.org/content/incredible-india-v2/en.html">Incredible!ndia</a></li>
+                        <li><a href="http://www.indiaculture.nic.in/hi">Ministry of Culture</a></li>
+                        <li><a href="https://swachhbharatmission.gov.in/SBMCMS/index.htm">Swachh Bharat</a></li>
+                    </ul>
+                </div>
+                <div class="footer-3 fot-info">
+                    <h3>Visit For More</h3>
+                    <ul>
+                        <li><a href="https://www.mygov.in/">My Government</a></li>
+                        <li><a href="https://www.digitalindia.gov.in/">Digital India</a></li>
+                        <li><a href="https://tourism.gov.in/">Ministry of Tourism</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">Developed by Guna Palanivel</p>
+    </footer>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/owl.carousel.min.js"></script>
     <script type="text/javascript" src="js/extrenaljq.js"></script>
+
+    <script>
+// Function to set a cookie with an expiration date
+function setCookie(name, value, days) {
+    const date = new Date();
+    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+    const expires = "expires=" + date.toUTCString();
+    document.cookie = name + "=" + value + ";" + expires + ";path=/";
+}
+
+// Function to hide the cookie banner
+function hideCookieBanner() {
+    document.querySelector('#cookies').style.display = "none";
+}
+
+// Function to handle the "Accept" button click
+document.querySelector('#cookies-accept').addEventListener("click", () => {
+    setCookie("cookie_consent", "accepted", 30); // Set a cookie named "cookie_consent"
+    hideCookieBanner(); // Hide the banner
+});
+
+// Function to handle the "Decline" button click
+document.querySelector('#cookies-decline').addEventListener("click", () => {
+    setCookie("cookie_consent", "declined", 30); // Set a cookie named "cookie_consent"
+    hideCookieBanner(); // Hide the banner
+});
+
+// Function to check if the user has previously accepted or declined cookies
+function checkCookieConsent() {
+    const consentCookie = getCookie("cookie_consent");
+    if (consentCookie === "accepted" || consentCookie === "declined") {
+        // If the user has already made a choice, hide the banner
+        hideCookieBanner();
+    } else {
+        // If no choice has been made, show the banner
+        document.querySelector('#cookies').style.display = "block";
+    }
+}
+
+// Function to get the value of a cookie by name
+function getCookie(name) {
+    const cookies = document.cookie.split(';');
+    for (let i = 0; i < cookies.length; i++) {
+        const cookie = cookies[i].trim();
+        if (cookie.indexOf(name + "=") === 0) {
+            return cookie.substring(name.length + 1);
+        }
+    }
+    return "";
+}
+
+// Check the user's cookie consent choice when the page loads
+window.addEventListener("load", checkCookieConsent);
+    </script>
 </body>
 
 </html>
